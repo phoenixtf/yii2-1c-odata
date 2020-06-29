@@ -11,7 +11,7 @@ namespace execut\oData;
 
 use yii\helpers\Html;
 
-class Profiler extends \Kily\Tools1C\OData\Profiler
+class Profiler
 {
     public function begin()
     {
