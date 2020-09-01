@@ -35,7 +35,7 @@ class ActiveRecord extends \yii\db\ActiveRecord
         return $this->refreshInternal($record);
     }
 
-    public static function updateAll($attributes, $condition = NULL) {
+    public static function updateAll($attributes, $condition = NULL, $params = []) {
 //        if ($condition === null || count($condition) != 1 || empty($condition['Ref_Key'])) {
 //            throw new \yii\base\Exception('updateAll allowed only update by Ref_Key');
 //        }
