@@ -55,9 +55,9 @@ class Client extends Component
     }
 
     public function getCache($key) {
-        if (!empty($this->cache[$key])) {
+        /*if (!empty($this->cache[$key])) {
             return $this->cache[$key];
-        }
+        }*/
     }
 
     public function setCache($key, $value) {
